@@ -60,4 +60,13 @@ function showPages() {
             e.style.display = "none"
         }
     })
+
+    document.querySelectorAll(".RockPaperScissorsLizardSpock").forEach((e) => {
+        if (mods.RockPaperScissorsLizardSpock) {
+            e.style.display = "unset"
+        }
+        else {
+            e.style.display = "none"
+        }
+    })
 }
