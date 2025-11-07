@@ -75,4 +75,8 @@ function showPages() {
     document.querySelectorAll(".LogicGates").forEach((e) => {
         e.style.display = (mods.LogicGates) ? "unset" : "none"
     })
+
+    document.querySelectorAll(".FlowerButton").forEach((e) => {
+        e.style.display = (mods.FlowerButton) ? "unset" : "none"
+    })
 }

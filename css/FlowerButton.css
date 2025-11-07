@@ -1,0 +1,16 @@
+th.flower {
+    background-color: rgb(82, 82, 82);
+    color: white;
+}
+.squish-text {
+    letter-spacing: -0.02em;
+}
+.double-squish-text {
+    letter-spacing: -0.04em;
+}
+#flower-button-table {
+    font-size: 83%;
+}
+#flower-button-table > thead {
+    font-size: 95%;
+}
