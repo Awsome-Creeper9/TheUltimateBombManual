@@ -78,4 +78,13 @@ function showPages() {
             e.style.display = "none"
         }
     })
+
+    document.querySelectorAll(".MathIsHard").forEach((e) => {
+        if (mods.MathIsHard) {
+            e.style.display = "unset"
+        }
+        else {
+            e.style.display = "none"
+        }
+    })
 }
