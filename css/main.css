@@ -44,9 +44,7 @@ textarea {
 
 @font-face {
     font-family: 'Special Elite';
-    src: local('Special Elite'),
-    local('Special Elite Regular'),
-    url('/fonts/SpecialElite-Regular.ttf') format('truetype');
+    src: url('../fonts/SpecialElite-Regular.ttf');
     font-weight: normal;
     font-style: normal;
 }
