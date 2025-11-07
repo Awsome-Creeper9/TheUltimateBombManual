@@ -1,0 +1,26 @@
+.color-lookup {
+    float: right;
+    margin-left: 1.5em;
+}
+.dark .borderless {
+    border: none;
+}
+
+.red {
+    background: red;
+}
+.orange {
+    background: orange;
+}
+.yellow {
+    background: yellow;
+}
+.green {
+    background: green;
+}
+.blue {
+    background: blue;
+}
+.purple {
+    background: purple;
+}

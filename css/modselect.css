@@ -1,0 +1,11 @@
+#ModSelectDiv{
+    position: fixed;
+    left: 1vw;
+    font-size: 16px;
+}
+.modLabel {
+    margin-right: 2em;
+}
+.modCB {
+    width: 30px;
+}
