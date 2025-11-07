@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'OpusStd';
+    src: url('../fonts/OpusStd.otf');
+}
+
+@font-face {
+    font-family: 'OpusChordsSansStd';
+    src: url('../fonts/OpusChordsSansStd.otf');
+}
+
+.music-symbol {
+    font-family: 'OpusStd';
+    font-size: 1.6em;
+    position: relative;
+    top: -0.2em;
+}
+
+.music-symbol-unshifted {
+    font-family: 'OpusStd';
+    font-size: 1.6em;
+    position: relative;
+    top: 0.0em;
+}
+
+.music-symbol-shifted {
+    font-family: 'OpusStd';
+    font-size: 1.6em;
+    position: relative;
+    top: 0.2em;
+}
+
+.music-chord {
+    font-family: 'OpusChordsSansStd';
+    word-spacing: 0.3em;
+}
+img.music {
+    width: 10px;
+    margin-bottom: 5px;
+}
+img.music.big {
+    width: 20px;
+}
+img.music.small {
+    width: 8px;
+}
+img.music.above {
+    margin-bottom: 15px;
+}
+.dark img.music { filter: invert(85%); }
+
+.no-requirement {
+    font-style: italic;
+}
