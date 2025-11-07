@@ -87,4 +87,13 @@ function showPages() {
             e.style.display = "none"
         }
     })
+
+    document.querySelectorAll(".Flags").forEach((e) => {
+        if (mods.Flags) {
+            e.style.display = "unset"
+        }
+        else {
+            e.style.display = "none"
+        }
+    })
 }
