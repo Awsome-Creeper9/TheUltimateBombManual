@@ -69,4 +69,13 @@ function showPages() {
             e.style.display = "none"
         }
     })
+
+    document.querySelectorAll(".Tetris").forEach((e) => {
+        if (mods.Tetris) {
+            e.style.display = "unset"
+        }
+        else {
+            e.style.display = "none"
+        }
+    })
 }
