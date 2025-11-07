@@ -87,4 +87,12 @@ function showPages() {
     document.querySelectorAll(".NeedySlots").forEach((e) => {
         e.style.display = (mods.NeedySlots) ? "unset" : "none"
     })
+
+    document.querySelectorAll(".PianoKeys").forEach((e) => {
+        e.style.display = (mods.PianoKeys) ? "unset" : "none"
+    })
+
+    document.querySelectorAll(".ColorFlash").forEach((e) => {
+        e.style.display = (mods.ColorFlash) ? "unset" : "none"
+    })
 }
