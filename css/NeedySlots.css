@@ -1,0 +1,14 @@
+table.needy-slots {
+    margin: 1em auto;
+    border: none;
+    width: 100%;
+    text-align: center;
+}
+th.needy-slots[colspan="3"] {
+    background-color: #000;
+    color: #CCC;
+}
+.dark th.needy-slots[colspan="3"] {
+    background-color: #CCC;
+    color: #000;
+}

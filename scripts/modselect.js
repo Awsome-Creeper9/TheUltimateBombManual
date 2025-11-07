@@ -83,4 +83,8 @@ function showPages() {
     document.querySelectorAll(".Scripting").forEach((e) => {
         e.style.display = (mods.Scripting) ? "unset" : "none"
     })
+
+    document.querySelectorAll(".NeedySlots").forEach((e) => {
+        e.style.display = (mods.NeedySlots) ? "unset" : "none"
+    })
 }
