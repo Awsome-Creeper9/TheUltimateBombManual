@@ -53,47 +53,26 @@ function createCB(mod) {
 
 function showPages() {
     document.querySelectorAll(".Minesweeper").forEach((e) => {
-        if (mods.Minesweeper) {
-            e.style.display = "unset"
-        }
-        else {
-            e.style.display = "none"
-        }
+        e.style.display = (mods.Minesweeper) ? "unset" : "none"
     })
 
     document.querySelectorAll(".RockPaperScissorsLizardSpock").forEach((e) => {
-        if (mods.RockPaperScissorsLizardSpock) {
-            e.style.display = "unset"
-        }
-        else {
-            e.style.display = "none"
-        }
+        e.style.display = (mods.RockPaperScissorsLizardSpock) ? "unset" : "none"
     })
 
     document.querySelectorAll(".Tetris").forEach((e) => {
-        if (mods.Tetris) {
-            e.style.display = "unset"
-        }
-        else {
-            e.style.display = "none"
-        }
+        e.style.display = (mods.Tetris) ? "unset" : "none"
     })
 
     document.querySelectorAll(".MathIsHard").forEach((e) => {
-        if (mods.MathIsHard) {
-            e.style.display = "unset"
-        }
-        else {
-            e.style.display = "none"
-        }
+        e.style.display = (mods.MathIsHard) ? "unset" : "none"
     })
 
     document.querySelectorAll(".Flags").forEach((e) => {
-        if (mods.Flags) {
-            e.style.display = "unset"
-        }
-        else {
-            e.style.display = "none"
-        }
+        e.style.display = (mods.Flags) ? "unset" : "none"
+    })
+
+    document.querySelectorAll(".LogicGates").forEach((e) => {
+        e.style.display = (mods.LogicGates) ? "unset" : "none"
     })
 }
