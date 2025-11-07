@@ -1,0 +1,7 @@
+svg.venn-diagram-script { width: 45%; }
+svg :not(.highlightable, g) {
+    user-select: none;
+    pointer-events: none;
+}
+svg .external { stroke: #000; }
+.dark svg .external { stroke: #ddd; }

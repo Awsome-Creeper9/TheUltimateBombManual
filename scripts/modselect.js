@@ -79,4 +79,8 @@ function showPages() {
     document.querySelectorAll(".FlowerButton").forEach((e) => {
         e.style.display = (mods.FlowerButton) ? "unset" : "none"
     })
+
+    document.querySelectorAll(".Scripting").forEach((e) => {
+        e.style.display = (mods.Scripting) ? "unset" : "none"
+    })
 }
