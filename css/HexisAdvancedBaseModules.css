@@ -1,0 +1,7 @@
+.densetable  td {
+    text-align: center;
+    padding: .0em .3em .0em;
+}
+.dark table, table {
+    border: none;
+}

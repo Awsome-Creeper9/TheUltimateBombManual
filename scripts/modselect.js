@@ -95,4 +95,8 @@ function showPages() {
     document.querySelectorAll(".ColorFlash").forEach((e) => {
         e.style.display = (mods.ColorFlash) ? "unset" : "none"
     })
+
+    document.querySelectorAll(".HexisAdvancedBaseModules").forEach((e) => {
+        e.style.display = (mods.HexisAdvancedBaseModules) ? "unset" : "none"
+    })
 }
