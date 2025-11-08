@@ -99,4 +99,8 @@ function showPages() {
     document.querySelectorAll(".HexisAdvancedBaseModules").forEach((e) => {
         e.style.display = (mods.HexisAdvancedBaseModules) ? "unset" : "none"
     })
+
+    document.querySelectorAll(".A90").forEach((e) => {
+        e.style.display = (mods.A90) ? "unset" : "none"
+    })
 }
