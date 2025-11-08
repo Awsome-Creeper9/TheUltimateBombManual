@@ -103,4 +103,8 @@ function showPages() {
     document.querySelectorAll(".A90").forEach((e) => {
         e.style.display = (mods.A90) ? "unset" : "none"
     })
+
+    document.querySelectorAll(".LuigiPoker").forEach((e) => {
+        e.style.display = (mods.LuigiPoker) ? "unset" : "none"
+    })
 }
